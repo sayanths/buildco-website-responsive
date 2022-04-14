@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+   
+}
+body{
+    font-family: 'Anek Odia', sans-serif;
+    background:white;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.section-padding{
+    padding: 100px 0;
+}
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+.nav-item p{
+    font-size: small;
+}
+.nav-item p:hover{
+    color: gray;
+}
+.carousel-caption{
+    bottom: 220px;
+    z-index: 2;
+}
+.carousel-caption h5{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+}
+
+.carousel-inner::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.7);
+    z-index: 1;
+}
+
+.navbar-light .navbar-brand{
+    color: black;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover{
+    color: black;
+}
+.navbar-light .navbr-nav .navbar-light{
+    color: black;
+}
+.w-100{
+    height: 100vh;
+}
+
+
+@media only screen and (max-width:767px){
+    .navbr-nav{
+        text-align: center;
+    }
+    .carousel-caption{
+        bottom: 125px;
+    }
+    .carousel-caption h5{
+        
+        font-size: 17px;
+    }
+    .carousel-caption a{
+        padding: 10px 15px;
+    }
+    .carousel-caption p{
+        width: 100%;
+        line-height: 1.6;
+        font-size: 12px;
+    }
+}
+
+.wrapper{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    padding: 0 2px 2px;
+    text-align: center;
+}
+
+.projct-pic{
+    
+    position: relative;
+    width: 100vw;
+    height: 330px;
+    background: url(images/scale-img.jpg);
+    padding: auto;
+}
+.projct-pic h1{
+    color: white;
+    margin-top: 150px;
+    
+}
+.card-pic{
+    display: flexbox;
+    
+}
+.box2{
+    padding: 0 2px 2px;
+    text-align: center;
+    
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    width: 100vw;
+    height: 130px;
+    background-color: rgb(50,69,68);
+    padding: auto;
+    color: white;
+}
+
+
+.footer .footer-content{
+    color: white;
+    position: relative;
+    width: 100vw;
+    height: 180px;
+    background-color: rgb(34,46,46);
+    padding: auto;
+}
+.footer-content h3{
+    margin-left: 200px;
+    margin-top: 60px;
+    color: gray;
+    font-size: small;
+    font-weight: bold;
+}
+
+.btn{
+    background-color:rgb(29,120,121);
+    border: none;
+    color: white;
+    font-weight: 300;
+    font-size: small;
+    letter-spacing: 2px;
+}
+
+#returnBtn{
+    background-color:white;
+    border-color:transparent;
+    color: black;
+    justify-content: center;
+    margin-left: 60vw;
+    margin-bottom: 2vw;
+    margin-top: 1vw;
+}
+
+.carousel-item img{
+    background: linear-gradient(black);
+}
+
+.header-section h2{
+font-size: 32px;
+margin-top: 25px;
+font-weight: lighter;
+color: rgb(31,37,38);
+}
+.header-section p{
+color: gray;
+line-height: 30px;
+}
+
